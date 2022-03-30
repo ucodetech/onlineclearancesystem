@@ -1,0 +1,6 @@
+RewriteEngine On
+
+
+
+RewriteRule ^file-detail/([0-9a-zA-Z_-]+)$ file-detail.php?detail=$1 [NC,L]
+RewriteRule ^fileDpt-detail/([0-9a-zA-Z_-]+)$ fileDpt-detail.php?detail=$1 [NC,L]

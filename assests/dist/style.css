@@ -1,0 +1,53 @@
+*{
+	font-family: Poppins;
+}
+
+body, html{
+	font-family: Poppins;
+}
+.myPage{
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 3px;
+	margin: 3px;
+	text-transform: uppercase;
+}
+
+/*.myForm{
+	margin: 10px auto;
+	text-align: center;
+}*/
+
+#regError{
+	width: 100%;
+	height: auto;
+    font-size: 1.0rem;
+	text-align: left;
+
+}
+
+  .libSection{
+	height: 50px;
+	border: 2px double navy;
+	padding: 10px;
+	width: 50%;
+	font-size: 20px;
+	border-radius: 30px;
+	text-align: center;
+	box-shadow: 1px 0 10px 2px navy;
+
+}
+.libSection:hover{
+	box-shadow: 1px 0 10px 2px #000;
+
+}
+.ucode-green{
+	background-color:#0b2900eb;
+	color: #fff;
+}
+.ucode-green:hover{
+	color: #fff;
+}
+.num{
+    font-size: 20px;
+   }

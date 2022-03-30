@@ -1,0 +1,43 @@
+.lab{
+   font-size: 1.8rem;
+}
+.fa-spinner{
+    font-size:3rem;
+    color:darkred;
+}
+.fa-check{
+    font-size:3rem;
+    color:whitesmoke;
+}
+.num{
+    font-size: 2rem !important;
+    position: relative;
+    top: 20%;
+    left:45%;
+    bottom: 10%;
+
+}
+.row-data{
+  margin:5px;
+  padding:5px;
+}
+.row-data span{
+  display: block;
+}
+.office span{
+  display: block;
+}
+@media print {
+#showForm {
+   background-color: white;
+   height: 100%;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   margin: 0;
+   padding: 15px;
+   font-size: 14px;
+   line-height: 18px;
+}
+}

@@ -1,0 +1,5 @@
+RewriteEngine On
+
+
+RewriteRule ^admin-editBook/([0-9a-zA-Z_-]+)$ admin-editBook.php?edit=$1 [NC,L]
+
